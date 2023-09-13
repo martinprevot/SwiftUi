@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80B0D4B2AB1A72E0077C160 /* morpionV2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B0D4A2AB1A72E0077C160 /* morpionV2App.swift */; };
+		F80B0D4D2AB1A72E0077C160 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B0D4C2AB1A72E0077C160 /* ContentView.swift */; };
+		F80B0D4F2AB1A7300077C160 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80B0D4E2AB1A7300077C160 /* Assets.xcassets */; };
+		F80B0D522AB1A7300077C160 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F80B0D512AB1A7300077C160 /* Preview Assets.xcassets */; };
+		F80B0D5C2AB1A7300077C160 /* morpionV2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B0D5B2AB1A7300077C160 /* morpionV2Tests.swift */; };
+		F80B0D662AB1A7310077C160 /* morpionV2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B0D652AB1A7310077C160 /* morpionV2UITests.swift */; };
+		F80B0D682AB1A7310077C160 /* morpionV2UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80B0D672AB1A7310077C160 /* morpionV2UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F80B0D582AB1A7300077C160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80B0D3F2AB1A72E0077C160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80B0D462AB1A72E0077C160;
+			remoteInfo = morpionV2;
+		};
+		F80B0D622AB1A7310077C160 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F80B0D3F2AB1A72E0077C160 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F80B0D462AB1A72E0077C160;
+			remoteInfo = morpionV2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F80B0D472AB1A72E0077C160 /* morpionV2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = morpionV2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80B0D4A2AB1A72E0077C160 /* morpionV2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morpionV2App.swift; sourceTree = "<group>"; };
+		F80B0D4C2AB1A72E0077C160 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F80B0D4E2AB1A7300077C160 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F80B0D512AB1A7300077C160 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F80B0D572AB1A7300077C160 /* morpionV2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morpionV2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80B0D5B2AB1A7300077C160 /* morpionV2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morpionV2Tests.swift; sourceTree = "<group>"; };
+		F80B0D612AB1A7310077C160 /* morpionV2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = morpionV2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80B0D652AB1A7310077C160 /* morpionV2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morpionV2UITests.swift; sourceTree = "<group>"; };
+		F80B0D672AB1A7310077C160 /* morpionV2UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = morpionV2UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80B0D442AB1A72E0077C160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80B0D542AB1A7300077C160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80B0D5E2AB1A7310077C160 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80B0D3E2AB1A72E0077C160 = {
+			isa = PBXGroup;
+			children = (
+				F80B0D492AB1A72E0077C160 /* morpionV2 */,
+				F80B0D5A2AB1A7300077C160 /* morpionV2Tests */,
+				F80B0D642AB1A7310077C160 /* morpionV2UITests */,
+				F80B0D482AB1A72E0077C160 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80B0D482AB1A72E0077C160 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80B0D472AB1A72E0077C160 /* morpionV2.app */,
+				F80B0D572AB1A7300077C160 /* morpionV2Tests.xctest */,
+				F80B0D612AB1A7310077C160 /* morpionV2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80B0D492AB1A72E0077C160 /* morpionV2 */ = {
+			isa = PBXGroup;
+			children = (
+				F80B0D4A2AB1A72E0077C160 /* morpionV2App.swift */,
+				F80B0D4C2AB1A72E0077C160 /* ContentView.swift */,
+				F80B0D4E2AB1A7300077C160 /* Assets.xcassets */,
+				F80B0D502AB1A7300077C160 /* Preview Content */,
+			);
+			path = morpionV2;
+			sourceTree = "<group>";
+		};
+		F80B0D502AB1A7300077C160 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F80B0D512AB1A7300077C160 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F80B0D5A2AB1A7300077C160 /* morpionV2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F80B0D5B2AB1A7300077C160 /* morpionV2Tests.swift */,
+			);
+			path = morpionV2Tests;
+			sourceTree = "<group>";
+		};
+		F80B0D642AB1A7310077C160 /* morpionV2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F80B0D652AB1A7310077C160 /* morpionV2UITests.swift */,
+				F80B0D672AB1A7310077C160 /* morpionV2UITestsLaunchTests.swift */,
+			);
+			path = morpionV2UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F80B0D462AB1A72E0077C160 /* morpionV2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80B0D6B2AB1A7310077C160 /* Build configuration list for PBXNativeTarget "morpionV2" */;
+			buildPhases = (
+				F80B0D432AB1A72E0077C160 /* Sources */,
+				F80B0D442AB1A72E0077C160 /* Frameworks */,
+				F80B0D452AB1A72E0077C160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = morpionV2;
+			productName = morpionV2;
+			productReference = F80B0D472AB1A72E0077C160 /* morpionV2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F80B0D562AB1A7300077C160 /* morpionV2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80B0D6E2AB1A7310077C160 /* Build configuration list for PBXNativeTarget "morpionV2Tests" */;
+			buildPhases = (
+				F80B0D532AB1A7300077C160 /* Sources */,
+				F80B0D542AB1A7300077C160 /* Frameworks */,
+				F80B0D552AB1A7300077C160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80B0D592AB1A7300077C160 /* PBXTargetDependency */,
+			);
+			name = morpionV2Tests;
+			productName = morpionV2Tests;
+			productReference = F80B0D572AB1A7300077C160 /* morpionV2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F80B0D602AB1A7310077C160 /* morpionV2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80B0D712AB1A7310077C160 /* Build configuration list for PBXNativeTarget "morpionV2UITests" */;
+			buildPhases = (
+				F80B0D5D2AB1A7310077C160 /* Sources */,
+				F80B0D5E2AB1A7310077C160 /* Frameworks */,
+				F80B0D5F2AB1A7310077C160 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F80B0D632AB1A7310077C160 /* PBXTargetDependency */,
+			);
+			name = morpionV2UITests;
+			productName = morpionV2UITests;
+			productReference = F80B0D612AB1A7310077C160 /* morpionV2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80B0D3F2AB1A72E0077C160 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F80B0D462AB1A72E0077C160 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					F80B0D562AB1A7300077C160 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F80B0D462AB1A72E0077C160;
+					};
+					F80B0D602AB1A7310077C160 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = F80B0D462AB1A72E0077C160;
+					};
+				};
+			};
+			buildConfigurationList = F80B0D422AB1A72E0077C160 /* Build configuration list for PBXProject "morpionV2" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F80B0D3E2AB1A72E0077C160;
+			productRefGroup = F80B0D482AB1A72E0077C160 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80B0D462AB1A72E0077C160 /* morpionV2 */,
+				F80B0D562AB1A7300077C160 /* morpionV2Tests */,
+				F80B0D602AB1A7310077C160 /* morpionV2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80B0D452AB1A72E0077C160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80B0D522AB1A7300077C160 /* Preview Assets.xcassets in Resources */,
+				F80B0D4F2AB1A7300077C160 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80B0D552AB1A7300077C160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80B0D5F2AB1A7310077C160 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80B0D432AB1A72E0077C160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80B0D4D2AB1A72E0077C160 /* ContentView.swift in Sources */,
+				F80B0D4B2AB1A72E0077C160 /* morpionV2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80B0D532AB1A7300077C160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80B0D5C2AB1A7300077C160 /* morpionV2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F80B0D5D2AB1A7310077C160 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80B0D662AB1A7310077C160 /* morpionV2UITests.swift in Sources */,
+				F80B0D682AB1A7310077C160 /* morpionV2UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F80B0D592AB1A7300077C160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80B0D462AB1A72E0077C160 /* morpionV2 */;
+			targetProxy = F80B0D582AB1A7300077C160 /* PBXContainerItemProxy */;
+		};
+		F80B0D632AB1A7310077C160 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F80B0D462AB1A72E0077C160 /* morpionV2 */;
+			targetProxy = F80B0D622AB1A7310077C160 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F80B0D692AB1A7310077C160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F80B0D6A2AB1A7310077C160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F80B0D6C2AB1A7310077C160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"morpionV2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenjamBanEtBerody.morpionV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80B0D6D2AB1A7310077C160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"morpionV2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenjamBanEtBerody.morpionV2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F80B0D6F2AB1A7310077C160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenjamBanEtBerody.morpionV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morpionV2.app/morpionV2";
+			};
+			name = Debug;
+		};
+		F80B0D702AB1A7310077C160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenjamBanEtBerody.morpionV2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/morpionV2.app/morpionV2";
+			};
+			name = Release;
+		};
+		F80B0D722AB1A7310077C160 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenjamBanEtBerody.morpionV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = morpionV2;
+			};
+			name = Debug;
+		};
+		F80B0D732AB1A7310077C160 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = BenjamBanEtBerody.morpionV2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = morpionV2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80B0D422AB1A72E0077C160 /* Build configuration list for PBXProject "morpionV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80B0D692AB1A7310077C160 /* Debug */,
+				F80B0D6A2AB1A7310077C160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80B0D6B2AB1A7310077C160 /* Build configuration list for PBXNativeTarget "morpionV2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80B0D6C2AB1A7310077C160 /* Debug */,
+				F80B0D6D2AB1A7310077C160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80B0D6E2AB1A7310077C160 /* Build configuration list for PBXNativeTarget "morpionV2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80B0D6F2AB1A7310077C160 /* Debug */,
+				F80B0D702AB1A7310077C160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80B0D712AB1A7310077C160 /* Build configuration list for PBXNativeTarget "morpionV2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80B0D722AB1A7310077C160 /* Debug */,
+				F80B0D732AB1A7310077C160 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80B0D3F2AB1A72E0077C160 /* Project object */;
+}
